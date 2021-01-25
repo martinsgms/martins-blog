@@ -9,6 +9,8 @@ module.exports = {
     siteTitle: `Martins`,
     siteTitleAlt: `Martins Blog`,
     siteUrl: `https://martinsblog.netlify.app/`,
+    siteDescription: `Blog simples em fase de construção.`,
+    siteLanguage: `pt-br`,
   },
   plugins: [
     {
