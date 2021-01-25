@@ -181,7 +181,7 @@ Additional pages can be created by placing MDX files inside `contents/pages`, e.
 
 ```md
 ---
-title: About
+title: Sobre
 slug: "/about"
 ---
 ```
