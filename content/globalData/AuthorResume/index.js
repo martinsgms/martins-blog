@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
-import authorPhoto from './gm.png';
+import authorPhoto from './author.png';
 
 const useStyles = makeStyles((theme) => ({
     grid: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function Resume() {
+function AuthorResume() {
     const classes = useStyles();
     return <>
         <hr/>
@@ -37,4 +37,4 @@ function Resume() {
     </>;
 }
 
-export default Resume;
+export default AuthorResume;
